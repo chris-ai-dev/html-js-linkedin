@@ -5,7 +5,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
     <link href="style.css" rel="stylesheet">
-    <title>LinkedIn Clone</title>
+    <script src="script.js" defer></script>
+    <title>LinkedIn JS</title>
 
     </head>
     <body>
@@ -17,7 +18,9 @@
                 <i id="search-icon" class="material-icons">
                     search
                 </i>
-                <input type="text" />
+                <input id="input-search" placeholder="Enter name here" />
+                <button onclick="showGreeting()">Submit</button>
+                <p id="output-search"></p>
             </div>
             <div id="icons-div">
                 <i class="material-icons">home</i>
